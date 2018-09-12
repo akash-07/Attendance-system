@@ -1,5 +1,5 @@
 import face_recognition as fr
-import skimage
+#import skimage
 from scipy.misc import imresize
 import os
 from face import Face
@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as patches
 
-IMAGE_BASE_PATH = '/home/deeplearning/Desktop/Attendance-System/clip_data_4'
+IMAGE_BASE_PATH = '/Users/saket/Documents/GitHub/Attendance-system/cam_shots'
 #IMAGE_BASE_PATH = '/home/deeplearning/Desktop/Attendance-System/frames/'
-IMAGE = 'solvay.jpg'
+IMAGE = 'DSC_0236.jpg'
 IMAGE_PATH = IMAGE_BASE_PATH + IMAGE
 
 def getImages(image_dir):
